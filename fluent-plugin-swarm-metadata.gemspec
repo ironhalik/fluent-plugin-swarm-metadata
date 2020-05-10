@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name    = "fluent-plugin-swarm-metadata"
-  spec.version = "0.1.0"
+  spec.version = "0.1.1"
   spec.authors = ["Michał Weinert"]
   spec.email   = ["michal@weinert.io"]
 
@@ -24,4 +24,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "test-unit", "~> 3.0"
   spec.add_runtime_dependency "fluentd", [">= 0.14.10", "< 2"]
+  spec.add_runtime_dependency "lru_redux", [">= 1.1.0", "< 1.2.0"]
+  spec.add_runtime_dependency "docker-api", [">= 1.34.2", "< 2"]
 end
