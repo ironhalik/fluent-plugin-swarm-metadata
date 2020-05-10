@@ -1,8 +1,8 @@
 # fluent-plugin-swarm-metadata
 
-[Fluentd](https://fluentd.org/) filter plugin to do something.
+[Fluentd](https://fluentd.org/)
 
-TODO: write description for you plugin.
+Filter plugin that allows flutentd to use Docker Swarm metadata.
 
 ## Installation
 

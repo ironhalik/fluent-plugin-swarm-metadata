@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["Michał Weinert"]
   spec.email   = ["michal@weinert.io"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Filter plugin that allows flutentd to use Docker Swarm metadata.}
+  spec.description   = %q{Filter plugin that allows flutentd to use Docker Swarm metadata.}
+  spec.homepage      = "https://github.com/ironhalik/fluent-plugin-swarm-metadata"
   spec.license       = "Apache-2.0"
 
   test_files, files  = `git ls-files -z`.split("\x0").partition do |f|
